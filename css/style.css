@@ -74,3 +74,32 @@
     padding: .4rem 0;
 }
 /* End About Area */
+
+/* Start Interests Area*/
+
+.site-main .interest-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .interest-area .interests-title{
+    padding: 0 14rem;
+}
+
+.site-main .interest-area .interests-title h1{
+    font-size: 35px;
+}
+
+.site-main > .interest-area .interests{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .interest-area .interests:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Interests Area*/
+
