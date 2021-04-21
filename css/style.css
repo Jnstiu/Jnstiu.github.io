@@ -5,6 +5,8 @@
 /*css variables*/
 @import url(./partials/_variables.css);
 
+/*import global styling*/
+@import url(./partials/_global.css);
 
 /* start navigation */
 
@@ -39,3 +41,20 @@
 
 
 /* end navigation */
+
+/* Banner Area */
+.site-main .site-banner {
+    background: url(#) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h1{
+    padding-top: 35%;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+/* End Banner Area */
