@@ -1,3 +1,42 @@
 
 /* import fonts from fonts.css file */
 @import url(./fonts.css);
+
+/*css variables*/
+@import url(./partials/_variables.css)
+
+
+/* start navigation */
+
+.header .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5 rem;
+}
+
+.header .main-menu .navbar{
+    padding: 1 rem 20 rem;
+}
+
+.header .main-menu .nav-item .nav-link{
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header .main-menu .navbar-nav .active a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */
