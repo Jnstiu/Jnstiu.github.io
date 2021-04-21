@@ -106,7 +106,7 @@
 /* Subscribe Area */
 
 .site-main .subscribe-area .subscribe{
-    background: url(#) no-repeat;
+    background: url(./img/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
 }
