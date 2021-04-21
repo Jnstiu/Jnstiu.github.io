@@ -45,5 +45,18 @@
 
 /* If viewport is equal to 1910px or less */
 @media only screen and (max-width:1910px){
+    .header .main-menu .navbar{
+        padding: 1rem;
+    }
 
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .interest-area .interests-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+
+    
 }
